@@ -1,0 +1,249 @@
+[
+  {
+    "_id": "PAC-001",
+    "documento": {
+      "tipo": "CC",
+      "numero": "43521876"
+    },
+    "nombres": "María Eugenia",
+    "apellidos": "Londoño Pérez",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-372470400000"
+      }
+    },
+    "sexo": "F",
+    "eps": "SURA",
+    "municipio": "Medellín",
+    "contacto": {
+      "telefono": "3014452210",
+      "direccion": "Cra 45 # 52-10, Medellín"
+    },
+    "alergias": [
+      "Penicilina"
+    ],
+    "activo": true
+  },
+  {
+    "_id": "PAC-002",
+    "documento": {
+      "tipo": "CC",
+      "numero": "70112345"
+    },
+    "nombres": "Jorge Iván",
+    "apellidos": "Muñoz Castaño",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-582163200000"
+      }
+    },
+    "sexo": "M",
+    "eps": "Nueva EPS",
+    "municipio": "Bello",
+    "contacto": {
+      "telefono": "3128874401",
+      "direccion": "Calle 50 # 48-21, Bello"
+    },
+    "alergias": [],
+    "activo": true
+  },
+  {
+    "_id": "PAC-003",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1036654987"
+    },
+    "nombres": "Daniela",
+    "apellidos": "Herrera Ruiz",
+    "fecha_nacimiento": {
+      "$date": "1999-11-05T00:00:00Z"
+    },
+    "sexo": "F",
+    "eps": "Sanitas",
+    "municipio": "Itagüí",
+    "contacto": {
+      "telefono": "3009917745",
+      "direccion": "Cra 52 # 35-08, Itagüí"
+    },
+    "alergias": [],
+    "activo": true
+  },
+  {
+    "_id": "PAC-004",
+    "documento": {
+      "tipo": "CC",
+      "numero": "71654320"
+    },
+    "nombres": "Carlos Alberto",
+    "apellidos": "Ramírez Toro",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-155260800000"
+      }
+    },
+    "sexo": "M",
+    "eps": "SURA",
+    "municipio": "Envigado",
+    "contacto": {
+      "telefono": "3045563310",
+      "direccion": "Calle 38 Sur # 43-15, Envigado"
+    },
+    "alergias": [
+      "Sulfas"
+    ],
+    "activo": true
+  },
+  {
+    "_id": "PAC-005",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1040234561"
+    },
+    "nombres": "Yesica Andrea",
+    "apellidos": "Valencia Mora",
+    "fecha_nacimiento": {
+      "$date": "1994-06-18T00:00:00Z"
+    },
+    "sexo": "F",
+    "eps": "Savia Salud",
+    "municipio": "Apartadó",
+    "contacto": {
+      "telefono": "3137782290",
+      "direccion": "Barrio Ortiz, Apartadó"
+    },
+    "alergias": [],
+    "activo": true
+  },
+  {
+    "_id": "PAC-006",
+    "documento": {
+      "tipo": "CC",
+      "numero": "39187654"
+    },
+    "nombres": "Rosa Elena",
+    "apellidos": "Quintero Gil",
+    "fecha_nacimiento": {
+      "$date": "1972-09-09T00:00:00Z"
+    },
+    "sexo": "F",
+    "eps": "Salud Total",
+    "municipio": "Rionegro",
+    "contacto": {
+      "telefono": "3106678823",
+      "direccion": "Cra 50 # 46-30, Rionegro"
+    },
+    "alergias": [],
+    "activo": true
+  },
+  {
+    "_id": "PAC-007",
+    "documento": {
+      "tipo": "TI",
+      "numero": "1033987456"
+    },
+    "nombres": "Samuel",
+    "apellidos": "Ospina Vargas",
+    "fecha_nacimiento": {
+      "$date": "2017-04-12T00:00:00Z"
+    },
+    "sexo": "M",
+    "eps": "SURA",
+    "municipio": "Sabaneta",
+    "contacto": {
+      "telefono": "3015542098",
+      "direccion": "Calle 70 Sur # 45-12, Sabaneta"
+    },
+    "alergias": [
+      "Ibuprofeno"
+    ],
+    "activo": true
+  },
+  {
+    "_id": "PAC-008",
+    "documento": {
+      "tipo": "CC",
+      "numero": "8456123"
+    },
+    "nombres": "Luis Fernando",
+    "apellidos": "Correa Betancur",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-286502400000"
+      }
+    },
+    "sexo": "M",
+    "eps": "Nueva EPS",
+    "municipio": "Caucasia",
+    "contacto": {
+      "telefono": "3148890012",
+      "direccion": "Barrio El Palmar, Caucasia"
+    },
+    "alergias": [],
+    "activo": true
+  },
+  {
+    "_id": "PAC-009",
+    "documento": {
+      "tipo": "CC",
+      "numero": "1045678912"
+    },
+    "nombres": "Kevin Andrés",
+    "apellidos": "Palacios Moreno",
+    "fecha_nacimiento": {
+      "$date": "2001-02-27T00:00:00Z"
+    },
+    "sexo": "M",
+    "eps": "Savia Salud",
+    "municipio": "Turbo",
+    "contacto": {
+      "telefono": "3216673341",
+      "direccion": "Barrio Pueblo Nuevo, Turbo"
+    },
+    "alergias": [],
+    "activo": true
+  },
+  {
+    "_id": "PAC-010",
+    "documento": {
+      "tipo": "RC",
+      "numero": "1036112233"
+    },
+    "nombres": "Valentina",
+    "apellidos": "Arango Ceballos",
+    "fecha_nacimiento": {
+      "$date": "2021-08-15T00:00:00Z"
+    },
+    "sexo": "F",
+    "eps": "Sanitas",
+    "municipio": "La Ceja",
+    "contacto": {
+      "telefono": "3002214567",
+      "direccion": "Calle 20 # 18-40, La Ceja"
+    },
+    "alergias": [],
+    "activo": true
+  },
+  {
+    "_id": "PAC-011",
+    "documento": {
+      "tipo": "CC",
+      "numero": "15432876"
+    },
+    "nombres": "Hernán Darío",
+    "apellidos": "Úsuga Montoya",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-461462400000"
+      }
+    },
+    "sexo": "M",
+    "eps": "Nueva EPS",
+    "municipio": "Rionegro",
+    "contacto": {
+      "telefono": "3176654490",
+      "direccion": "Vereda Cabeceras, Rionegro"
+    },
+    "alergias": [],
+    "activo": true
+  }
+]

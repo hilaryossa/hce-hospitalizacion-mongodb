@@ -1,0 +1,5 @@
+Datos insertados:
+  medicos           : 6
+  pacientes         : 11
+  camas             : 12
+  hospitalizaciones : 12

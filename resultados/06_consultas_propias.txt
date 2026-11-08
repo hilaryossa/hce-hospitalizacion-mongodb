@@ -1,0 +1,148 @@
+
+==================== P1. Alerta clínica temprana (pacientes activos) ====================
+[
+  {
+    hospitalizacion: 'HOS-0001',
+    servicio: 'Medicina Interna',
+    cama: 'CAMA-101',
+    paciente: 'María Eugenia Londoño Pérez',
+    spo2: 90,
+    temperatura: 38.7,
+    alerta: 'CRÍTICA: hipoxemia + fiebre alta'
+  },
+  {
+    hospitalizacion: 'HOS-0004',
+    servicio: 'UCI',
+    cama: 'CAMA-401',
+    paciente: 'Carlos Alberto Ramírez Toro',
+    spo2: 94,
+    temperatura: 38.9,
+    alerta: 'Fiebre alta'
+  },
+  {
+    hospitalizacion: 'HOS-0005',
+    servicio: 'Medicina Interna',
+    cama: 'CAMA-103',
+    paciente: 'Yesica Andrea Valencia Mora',
+    spo2: 96,
+    temperatura: 38.6,
+    alerta: 'Fiebre alta'
+  },
+  {
+    hospitalizacion: 'HOS-0002',
+    servicio: 'Medicina Interna',
+    cama: 'CAMA-102',
+    paciente: 'Jorge Iván Muñoz Castaño',
+    spo2: 91,
+    temperatura: 37.2,
+    alerta: 'Hipoxemia'
+  },
+  {
+    hospitalizacion: 'HOS-0012',
+    servicio: 'UCI',
+    cama: 'CAMA-402',
+    paciente: 'Hernán Darío Úsuga Montoya',
+    spo2: 91,
+    temperatura: 36.9,
+    alerta: 'Hipoxemia'
+  }
+]
+
+==================== P2. Perfil epidemiológico por municipio ====================
+[
+  {
+    municipio: 'Medellín',
+    casos: 2,
+    edad_promedio: 68,
+    diagnosticos: [
+      'Neumonía, no especificada',
+      'Hipertensión esencial'
+    ]
+  },
+  {
+    municipio: 'Rionegro',
+    casos: 2,
+    edad_promedio: 62,
+    diagnosticos: [
+      'Infarto agudo de miocardio, sin otra especificación',
+      'Cálculo de la vesícula biliar sin colecistitis'
+    ]
+  },
+  {
+    municipio: 'Apartadó',
+    casos: 1,
+    edad_promedio: 32,
+    diagnosticos: [
+      'Fiebre del dengue hemorrágico'
+    ]
+  },
+  {
+    municipio: 'Bello',
+    casos: 1,
+    edad_promedio: 75,
+    diagnosticos: [
+      'EPOC con exacerbación aguda'
+    ]
+  },
+  {
+    municipio: 'Caucasia',
+    casos: 1,
+    edad_promedio: 65,
+    diagnosticos: [
+      'Diabetes mellitus tipo 2 sin complicaciones'
+    ]
+  },
+  {
+    municipio: 'Envigado',
+    casos: 1,
+    edad_promedio: 61,
+    diagnosticos: [
+      'Sepsis, no especificada'
+    ]
+  },
+  {
+    municipio: 'Itagüí',
+    casos: 1,
+    edad_promedio: 27,
+    diagnosticos: [
+      'Apendicitis aguda, otra y la no especificada'
+    ]
+  },
+  {
+    municipio: 'La Ceja',
+    casos: 1,
+    edad_promedio: 5,
+    diagnosticos: [
+      'Neumonía, no especificada'
+    ]
+  },
+  {
+    municipio: 'Sabaneta',
+    casos: 1,
+    edad_promedio: 9,
+    diagnosticos: [
+      'Neumonía, no especificada'
+    ]
+  },
+  {
+    municipio: 'Turbo',
+    casos: 1,
+    edad_promedio: 25,
+    diagnosticos: [
+      'Fiebre del dengue hemorrágico'
+    ]
+  }
+]
+
+==================== P3. Pacientes con reingreso hospitalario ====================
+[
+  {
+    paciente_id: 'PAC-001',
+    paciente: 'María Eugenia Londoño Pérez',
+    ingresos: 2,
+    fechas: [
+      ISODate('2026-11-02T08:30:00.000Z'),
+      ISODate('2026-09-10T11:00:00.000Z')
+    ]
+  }
+]

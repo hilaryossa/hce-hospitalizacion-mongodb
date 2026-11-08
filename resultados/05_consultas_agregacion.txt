@@ -1,0 +1,251 @@
+
+==================== C1. Ocupación de camas por servicio ====================
+[
+  {
+    servicio: 'Medicina Interna',
+    total_camas: 4,
+    ocupadas: 4,
+    porcentaje_ocupacion: 100
+  },
+  {
+    servicio: 'UCI',
+    total_camas: 3,
+    ocupadas: 2,
+    porcentaje_ocupacion: 66.7
+  },
+  {
+    servicio: 'Cirugía',
+    total_camas: 3,
+    ocupadas: 1,
+    porcentaje_ocupacion: 33.3
+  },
+  {
+    servicio: 'Pediatría',
+    total_camas: 2,
+    ocupadas: 0,
+    porcentaje_ocupacion: 0
+  }
+]
+
+==================== C2. Diagnósticos CIE-10 más frecuentes ====================
+[
+  {
+    _id: {
+      codigo: 'I10',
+      descripcion: 'Hipertensión esencial'
+    },
+    casos: 3
+  },
+  {
+    _id: {
+      codigo: 'J18.9',
+      descripcion: 'Neumonía, no especificada'
+    },
+    casos: 3
+  },
+  {
+    _id: {
+      codigo: 'A91',
+      descripcion: 'Fiebre del dengue hemorrágico'
+    },
+    casos: 2
+  },
+  {
+    _id: {
+      codigo: 'A41.9',
+      descripcion: 'Sepsis, no especificada'
+    },
+    casos: 1
+  },
+  {
+    _id: {
+      codigo: 'E11.9',
+      descripcion: 'Diabetes mellitus tipo 2 sin complicaciones'
+    },
+    casos: 1
+  },
+  {
+    _id: {
+      codigo: 'I21.9',
+      descripcion: 'Infarto agudo de miocardio, sin otra especificación'
+    },
+    casos: 1
+  },
+  {
+    _id: {
+      codigo: 'J44.1',
+      descripcion: 'EPOC con exacerbación aguda'
+    },
+    casos: 1
+  },
+  {
+    _id: {
+      codigo: 'K35.8',
+      descripcion: 'Apendicitis aguda, otra y la no especificada'
+    },
+    casos: 1
+  },
+  {
+    _id: {
+      codigo: 'K80.2',
+      descripcion: 'Cálculo de la vesícula biliar sin colecistitis'
+    },
+    casos: 1
+  },
+  {
+    _id: {
+      codigo: 'N39.0',
+      descripcion: 'Infección de vías urinarias, sitio no especificado (foco de la sepsis)'
+    },
+    casos: 1
+  }
+]
+
+==================== C3. Censo de pacientes hospitalizados (activos) ====================
+[
+  {
+    hospitalizacion: 'HOS-0001',
+    servicio: 'Medicina Interna',
+    cama: 'CAMA-101',
+    paciente: 'María Eugenia Londoño Pérez',
+    medico: 'Laura Restrepo Gómez',
+    diagnostico_principal: 'Neumonía, no especificada'
+  },
+  {
+    hospitalizacion: 'HOS-0002',
+    servicio: 'Medicina Interna',
+    cama: 'CAMA-102',
+    paciente: 'Jorge Iván Muñoz Castaño',
+    medico: 'Julián Cardona Ríos',
+    diagnostico_principal: 'EPOC con exacerbación aguda'
+  },
+  {
+    hospitalizacion: 'HOS-0003',
+    servicio: 'Cirugía',
+    cama: 'CAMA-201',
+    paciente: 'Daniela Herrera Ruiz',
+    medico: 'Andrés Felipe Zapata',
+    diagnostico_principal: 'Apendicitis aguda, otra y la no especificada'
+  },
+  {
+    hospitalizacion: 'HOS-0004',
+    servicio: 'UCI',
+    cama: 'CAMA-401',
+    paciente: 'Carlos Alberto Ramírez Toro',
+    medico: 'Santiago Ochoa Vélez',
+    diagnostico_principal: 'Sepsis, no especificada'
+  },
+  {
+    hospitalizacion: 'HOS-0005',
+    servicio: 'Medicina Interna',
+    cama: 'CAMA-103',
+    paciente: 'Yesica Andrea Valencia Mora',
+    medico: 'Paula Andrea Giraldo',
+    diagnostico_principal: 'Fiebre del dengue hemorrágico'
+  },
+  {
+    hospitalizacion: 'HOS-0007',
+    servicio: 'Medicina Interna',
+    cama: 'CAMA-104',
+    paciente: 'Luis Fernando Correa Betancur',
+    medico: 'Laura Restrepo Gómez',
+    diagnostico_principal: 'Diabetes mellitus tipo 2 sin complicaciones'
+  },
+  {
+    hospitalizacion: 'HOS-0012',
+    servicio: 'UCI',
+    cama: 'CAMA-402',
+    paciente: 'Hernán Darío Úsuga Montoya',
+    medico: 'Santiago Ochoa Vélez',
+    diagnostico_principal: 'Infarto agudo de miocardio, sin otra especificación'
+  }
+]
+
+==================== C4. Carga asistencial por médico ====================
+[
+  {
+    _id: 'MED-001',
+    total_atenciones: 3,
+    pacientes_activos: 2,
+    medico: [
+      {
+        nombre: 'Laura Restrepo Gómez',
+        especialidad: 'Medicina Interna'
+      }
+    ]
+  },
+  {
+    _id: 'MED-004',
+    total_atenciones: 2,
+    pacientes_activos: 2,
+    medico: [
+      {
+        nombre: 'Santiago Ochoa Vélez',
+        especialidad: 'Medicina Crítica'
+      }
+    ]
+  },
+  {
+    _id: 'MED-002',
+    total_atenciones: 2,
+    pacientes_activos: 1,
+    medico: [
+      {
+        nombre: 'Andrés Felipe Zapata',
+        especialidad: 'Cirugía General'
+      }
+    ]
+  },
+  {
+    _id: 'MED-006',
+    total_atenciones: 2,
+    pacientes_activos: 1,
+    medico: [
+      {
+        nombre: 'Paula Andrea Giraldo',
+        especialidad: 'Infectología'
+      }
+    ]
+  },
+  {
+    _id: 'MED-003',
+    total_atenciones: 2,
+    pacientes_activos: 0,
+    medico: [
+      {
+        nombre: 'Catalina Mejía Arango',
+        especialidad: 'Pediatría'
+      }
+    ]
+  },
+  {
+    _id: 'MED-005',
+    total_atenciones: 1,
+    pacientes_activos: 1,
+    medico: [
+      {
+        nombre: 'Julián Cardona Ríos',
+        especialidad: 'Neumología'
+      }
+    ]
+  }
+]
+
+==================== C5. Estancia promedio por servicio (egresados) ====================
+[
+  {
+    servicio: 'Cirugía',
+    egresos: 1,
+    estancia_promedio_dias: 5
+  },
+  {
+    servicio: 'Medicina Interna',
+    egresos: 2,
+    estancia_promedio_dias: 5
+  },
+  {
+    servicio: 'Pediatría',
+    egresos: 2,
+    estancia_promedio_dias: 4
+  }
+]

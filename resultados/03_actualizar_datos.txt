@@ -1,0 +1,40 @@
+- U1 Cambio de EPS (PAC-003)  ->  coincidencias: 1 | modificados: 1
+- U2 Contacto actualizado (PAC-002)  ->  coincidencias: 1 | modificados: 1
+- U3 Nueva evolución (HOS-0003)  ->  coincidencias: 1 | modificados: 1
+- U4 Nuevo medicamento (HOS-0001)  ->  coincidencias: 1 | modificados: 1
+- U5 Diagnóstico corregido (HOS-0004)  ->  coincidencias: 1 | modificados: 1
+- U6 Cama ocupada (CAMA-402)  ->  coincidencias: 1 | modificados: 1
+- U7 Egreso registrado (HOS-0006)  ->  coincidencias: 1 | modificados: 1
+- U7 Cama liberada (CAMA-301)  ->  coincidencias: 1 | modificados: 1
+- U8 Consentimiento de datos (todos los pacientes)  ->  coincidencias: 11 | modificados: 11
+
+Verificación PAC-002 (contacto):
+{
+  _id: 'PAC-002',
+  eps: 'Nueva EPS',
+  contacto: {
+    telefono: '3189904512',
+    direccion: 'Diagonal 55 # 34-90, Bello'
+  }
+}
+Verificación HOS-0004 (diagnósticos):
+{
+  diagnosticos: [
+    {
+      codigo_cie10: 'A41.9',
+      descripcion: 'Sepsis, no especificada',
+      tipo: 'Principal'
+    },
+    {
+      codigo_cie10: 'N39.0',
+      descripcion: 'Infección de vías urinarias, sitio no especificado (foco de la sepsis)',
+      tipo: 'Secundario'
+    }
+  ]
+}
+Verificación HOS-0006 (egreso):
+{
+  _id: 'HOS-0006',
+  fecha_egreso: ISODate('2026-11-08T10:00:00.000Z'),
+  estado: 'Egresada'
+}

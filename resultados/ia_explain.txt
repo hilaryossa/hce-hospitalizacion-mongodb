@@ -1,0 +1,10 @@
+ANTES  (sin índice)
+   tipo de recorrido    : COLLSCAN (lee toda la colección)
+   índice               : ninguno
+   documentos leídos    : 13
+   documentos devueltos : 7
+DESPUÉS (con ix_estado_eliminado)
+   tipo de recorrido    : IXSCAN (usa índice)
+   índice               : ix_estado_eliminado
+   documentos leídos    : 7
+   documentos devueltos : 7

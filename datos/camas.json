@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "CAMA-101",
+    "servicio": "Medicina Interna",
+    "piso": 1,
+    "estado": "Ocupada"
+  },
+  {
+    "_id": "CAMA-102",
+    "servicio": "Medicina Interna",
+    "piso": 1,
+    "estado": "Ocupada"
+  },
+  {
+    "_id": "CAMA-103",
+    "servicio": "Medicina Interna",
+    "piso": 1,
+    "estado": "Ocupada"
+  },
+  {
+    "_id": "CAMA-104",
+    "servicio": "Medicina Interna",
+    "piso": 1,
+    "estado": "Ocupada"
+  },
+  {
+    "_id": "CAMA-201",
+    "servicio": "Cirugía",
+    "piso": 2,
+    "estado": "Ocupada"
+  },
+  {
+    "_id": "CAMA-202",
+    "servicio": "Cirugía",
+    "piso": 2,
+    "estado": "Disponible"
+  },
+  {
+    "_id": "CAMA-203",
+    "servicio": "Cirugía",
+    "piso": 2,
+    "estado": "Mantenimiento"
+  },
+  {
+    "_id": "CAMA-301",
+    "servicio": "Pediatría",
+    "piso": 3,
+    "estado": "Ocupada"
+  },
+  {
+    "_id": "CAMA-302",
+    "servicio": "Pediatría",
+    "piso": 3,
+    "estado": "Disponible"
+  },
+  {
+    "_id": "CAMA-401",
+    "servicio": "UCI",
+    "piso": 4,
+    "estado": "Ocupada"
+  },
+  {
+    "_id": "CAMA-402",
+    "servicio": "UCI",
+    "piso": 4,
+    "estado": "Disponible"
+  },
+  {
+    "_id": "CAMA-403",
+    "servicio": "UCI",
+    "piso": 4,
+    "estado": "Disponible"
+  }
+]

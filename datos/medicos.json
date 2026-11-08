@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "MED-001",
+    "nombre": "Laura Restrepo Gómez",
+    "especialidad": "Medicina Interna",
+    "registro_medico": "RM-05-11823",
+    "telefono": "3104521187",
+    "activo": true
+  },
+  {
+    "_id": "MED-002",
+    "nombre": "Andrés Felipe Zapata",
+    "especialidad": "Cirugía General",
+    "registro_medico": "RM-05-09412",
+    "telefono": "3157789012",
+    "activo": true
+  },
+  {
+    "_id": "MED-003",
+    "nombre": "Catalina Mejía Arango",
+    "especialidad": "Pediatría",
+    "registro_medico": "RM-05-13377",
+    "telefono": "3006654321",
+    "activo": true
+  },
+  {
+    "_id": "MED-004",
+    "nombre": "Santiago Ochoa Vélez",
+    "especialidad": "Medicina Crítica",
+    "registro_medico": "RM-05-08860",
+    "telefono": "3112290045",
+    "activo": true
+  },
+  {
+    "_id": "MED-005",
+    "nombre": "Julián Cardona Ríos",
+    "especialidad": "Neumología",
+    "registro_medico": "RM-05-10254",
+    "telefono": "3205531178",
+    "activo": true
+  },
+  {
+    "_id": "MED-006",
+    "nombre": "Paula Andrea Giraldo",
+    "especialidad": "Infectología",
+    "registro_medico": "RM-05-12098",
+    "telefono": "3168847720",
+    "activo": true
+  }
+]

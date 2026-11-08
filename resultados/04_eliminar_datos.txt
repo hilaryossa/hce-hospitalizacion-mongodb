@@ -1,0 +1,17 @@
+- D1 Soft delete HOS-0013        -> modificados: 1
+- D2 Paciente inactivado PAC-009 -> modificados: 1
+- D3 $pull Prednisolona HOS-0002 -> modificados: 1
+- D4 deleteOne CAMA-999          -> eliminados: 1
+- D5 deleteMany camas de prueba  -> eliminados: 2
+
+Hospitalizaciones visibles (eliminado: false): 12
+Hospitalizaciones con soft delete (eliminado: true): 1
+Camas totales tras el hard delete: 12
+Medicamentos actuales de HOS-0002:
+{
+  medicamentos: [
+    {
+      nombre: 'Salbutamol'
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+MongoServerError: Document failed validation
+[
+  {
+    operatorName: 'properties',
+    propertiesNotSatisfied: [
+      {
+        propertyName: 'estado',
+        details: [
+          {
+            operatorName: 'enum',
+            specifiedAs: {
+              enum: [
+                'Disponible',
+                'Ocupada',
+                'Mantenimiento'
+              ]
+            },
+            reason: 'value was not found in enum',
+            consideredValue: 'Libre'
+          }
+        ]
+      }
+    ]
+  }
+]
